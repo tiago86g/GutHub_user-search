@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+
+:root {
+  /* --font-display: "Comfortaa", cursive; */
+  --font-system: 'Montserrat', sans-serif;
+  --color-dark-gray: #3A3838;
+  --color-orange: #64FFE3;
+  --color-text: #FFFFFF;
+  --nav-size: 60px;
+  --border: 1px solid red;
+  --border-radius: 8px;
+  --speed: 500ms;
+
+  /* --gradient: linear-gradient(189.18deg, #ffb800 2.38%, #ff4d00 97.4%); */
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+  /* 1 rem = 10px; 10px/16px = 62.5% */
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: var(--font-system);
+  font-size: 1.6rem;
+  height: 100%;
+  width: 100%;
+  background-color: var(--color-dark-gray)
+}
+
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--color-text)
+}
