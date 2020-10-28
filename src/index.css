@@ -6,6 +6,7 @@
   --color-bg-accent: #323232;
   --color-green: rgb(0, 254, 162);
   --color-white: #FFFFFF;
+  --color-black: #000000;
   --nav-size: 60px;
   --button-size: 60px;
   --border: 1px solid #FFFFFF;
@@ -58,4 +59,37 @@ a {
 .link {
   text-decoration: none;
   color: var(--color-text)
+}
+
+/* Button */
+button {
+  font-weight: 700;
+  font-size: 1.5rem;
+  height: 65px;
+  min-width: 175px;
+  border-radius: 46px;
+  color: var(--color-black);
+  background-color: var(--color-green);
+  border: none;
+  /* transition: background 250ms ease-in-out,
+      transform 150ms ease; */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+button:hover,
+button:focus {
+  background: var(--color-green);
+}
+
+button:focus {
+  outline: 1px solid #fff;
+}
+
+button:active {
+  transform: scale(0.99);
+}
+
+.User_github-page {
+  margin-top: 40px;
 }
