@@ -1,0 +1,13 @@
+.Overview_main-image {
+    display: flex;
+    justify-content: center;
+}
+
+.github {
+    width: 91px;
+    height: 91px;
+    margin-bottom: 30px;
+    color: var(--color-white);
+    border-radius: 50%;
+    background-color: var(--color-green)
+}
