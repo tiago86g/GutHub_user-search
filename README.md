@@ -11,5 +11,6 @@ Mockup with [Figma](https://www.figma.com/file/5giRjamuR2JG5x3s3fW3vs/GitHub-Sea
 - [x] CSS Flexbox
 - [x] CSS Grid
 - [x] CSS variable
+- [x] Styled Scroll bar for different browsers  
 - [x] Figma
 - [ ] Font Awesome

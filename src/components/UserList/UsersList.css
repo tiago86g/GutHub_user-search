@@ -1,0 +1,44 @@
+.UsersList {
+    padding-left: 0.5rem;
+    max-height: 420px;
+    overflow: auto;
+    scrollbar-width: auto;
+    scrollbar-color: var(--color-green) var(--color-bg-accent);
+}
+
+.UsersList_image {
+    object-fit: cover;
+    max-width: 37px;
+    border-radius: 50%;
+    background-color: var(--color-white)
+}
+
+li:hover .UsersList_image {
+    border: 3px solid var(--color-green)
+}
+
+li:hover .UsersList_link {
+    color: var(--color-green);
+}
+
+.UsersList_link {
+    padding-left: 10px;
+    padding-bottom: 22px;
+    text-decoration: none;
+    color: var(--color-white);
+    display: inline-block;
+    vertical-align: 40%;
+}
+
+/* Scroll bar */
+/* width */
+.UsersList::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Handle */
+.UsersList::-webkit-scrollbar-thumb {
+    background-color: var(--color-green);
+    opacity: 0.5;
+    border-radius: 5px;
+}
