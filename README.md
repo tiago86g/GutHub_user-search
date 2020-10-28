@@ -1,5 +1,5 @@
 # GutHub_user-search
-live preview [coming soon](https://github.com/tiago86g/GutHub_user-search/blob/master/README.md).
+Live preview [coming soon](https://github.com/tiago86g/GutHub_user-search/blob/master/README.md).
 
 Mockup with [Figma](https://www.figma.com/file/5giRjamuR2JG5x3s3fW3vs/GitHub-Searcher?node-id=0%3A1).
 
