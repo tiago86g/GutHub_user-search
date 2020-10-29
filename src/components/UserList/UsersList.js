@@ -18,13 +18,13 @@ export default function UsersList({ users }) {
     fetchData();
   }, [users]);
 
-  if (!users) {
-    return <p className="UsersList_error-message">No users yet</p>;
+  if (!users || users.length===0) {
+    return <p className="UsersList_error-message">No users</p>;
   }
   if (!data) {
     return (
       <div>
-        <p>No data found. Try to reload the page</p>
+        <p className="UsersList_error-message">No data found. Try to reload the page</p>
         <Redirect to='/' />
       </div>
     );
