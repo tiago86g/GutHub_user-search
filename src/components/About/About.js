@@ -7,7 +7,7 @@ export default function About() {
   return (
     <div className="About">
       <div className="block-center">
-        <img className="About_image" src={imageUrl} />
+        <img className="About_image" src={imageUrl} alt="Tiago" />
       </div>
       <h1 className="About_main-name">About me</h1>
       <div>
