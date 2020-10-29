@@ -42,3 +42,11 @@ li:hover .UsersList_link {
     opacity: 0.5;
     border-radius: 5px;
 }
+
+.UsersList_error-message {
+    line-height: 3rem;
+    font-weight: 300;
+    font-size: 1rem;
+    text-align: center;
+    color: var(--color-white);
+}
