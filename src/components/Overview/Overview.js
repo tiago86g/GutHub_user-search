@@ -9,7 +9,8 @@ export default function Overview() {
     return (
         <>
             <div className="Overview_main-image">
-                <p className="github"></p>
+                <div className="github">
+                </div>
             </div>
             <SearchInput users={users} setUsers={setUsers}/>
             <UsersList users={users}/>
