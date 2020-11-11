@@ -1,4 +1,4 @@
-.About {
+.about {
     color: var(--color-white);
 }
 
@@ -7,7 +7,7 @@
     justify-content: center;
 }
 
-.About_image {
+.about_image {
     object-fit: cover;
     height: 91px;
     width: 91px;
@@ -16,15 +16,23 @@
     background-color: var(--color-white)
 }
 
-.About_main-name {
+.about_main-name {
     color: var(--color-green);
     text-align: center;
     margin-bottom: 30px;
 }
 
-.About_details {
+.about_details {
     line-height: 2.7rem;
     font-weight: 300;
     font-size: 1.4rem;
     padding-bottom: 2rem;
+}
+
+.about-github-button {
+    width: 200px;
+}
+
+.tiago-github-icon {
+    color: var(--color-bg-accent)
 }
