@@ -66,13 +66,10 @@ button {
   font-weight: 700;
   font-size: 1.5rem;
   height: 65px;
-  min-width: 175px;
   border-radius: 46px;
   color: var(--color-black);
   background-color: var(--color-green);
   border: none;
-  /* transition: background 250ms ease-in-out,
-      transform 150ms ease; */
   -webkit-appearance: none;
   -moz-appearance: none;
 }
@@ -80,10 +77,6 @@ button {
 button:hover,
 button:focus {
   background: var(--color-green);
-}
-
-button:focus {
-  outline: 1px solid #fff;
 }
 
 button:active {
