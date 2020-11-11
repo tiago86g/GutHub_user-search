@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './User.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 export default function User({ match }) {
   // console.log({ match });
@@ -25,12 +27,12 @@ export default function User({ match }) {
     );
   } else {
     return (
-      <div className="User">
+      <div className="user">
         <div className="block-center">
-          <img className="User_image" src={user.avatar_url} alt={user.login} />
+          <img className="user_image" src={user.avatar_url} alt={user.login} />
         </div>
-        <h1 className="User_main-name">{user.login||"GitHub user"}</h1>
-        <div className="User_details">
+        <h1 className="user_main-name">{user.login||"GitHub user"}</h1>
+        <div className="user_details">
           <p>
             name: <strong>{user.name || '***'}</strong>
           </p>
@@ -64,9 +66,9 @@ export default function User({ match }) {
             <strong>{user.updated_at.slice(0, 10) || '***'}</strong>
           </p>
         </div>
-        <div className="User_github-page block-center">
+        <div className="user_github-page block-center">
           <a href={user.html_url} alt={`link to GitHub page of ${user.login}`}target={user.html_url}>
-            <button className="User_button">{`GitHub - ${user.login}`}</button>
+              <FontAwesomeIcon icon={faGithub} size="4x" className="user-github-icon"/>
           </a>
         </div>
       </div>
