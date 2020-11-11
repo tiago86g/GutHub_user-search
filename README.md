@@ -1,9 +1,9 @@
 # GutHub_user-search
-Live preview [CodeSandbox](https://ozkeh.csb.app/) (coming soon).
+Live preview [Nelify](https://nervous-poitras-f19246.netlify.app/).
 
 Mockup with [Figma](https://www.figma.com/file/5giRjamuR2JG5x3s3fW3vs/GitHub-Searcher?node-id=0%3A1).
 
-- [x] React
+- [x] React.js
 - [x] React functional components
 - [x] Fetch API
 - [x] React router
@@ -13,4 +13,4 @@ Mockup with [Figma](https://www.figma.com/file/5giRjamuR2JG5x3s3fW3vs/GitHub-Sea
 - [x] CSS variable
 - [x] Styled Scroll bar for different browsers  
 - [x] Figma
-- [ ] Font Awesome
+- [x] Font Awesome
