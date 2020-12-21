@@ -1,5 +1,5 @@
 # GutHub_user-search
-Live preview [Nelify](https://githubusersearch-tiago.netlify.app/).
+Live preview [Nelify](https://githubusersearch-tiago.netlify.app).
 
 Mockup with [Figma](https://www.figma.com/file/5giRjamuR2JG5x3s3fW3vs/GitHub-Searcher?node-id=0%3A1).
 
