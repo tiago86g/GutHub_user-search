@@ -11,7 +11,7 @@ import {} from '@fortawesome/free-brands-svg-icons';
 export default function Footer() {
   return (
     <footer>
-      <div class="some">
+      <div className="some">
         <a href="https://www.github.com/tiago86g">
           <FontAwesomeIcon icon={faGithubAlt} />
         </a>
