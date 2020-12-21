@@ -1,0 +1,15 @@
+.some {
+  max-width: 50%;
+  margin: 12px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .some .svg-inline--fa {
+  color: rgba(255, 255, 255, 0.1);
+  font-size: 1.3em
+}
+
+footer .some .svg-inline--fa:hover {
+  color: var(--color-green);
+}
